@@ -1,0 +1,66 @@
+   .container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 20%;
+    padding: 30px;
+    margin-top:20px ;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #3700ff, #ff5050);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  input {
+    outline: none;
+
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #919191;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+  }
+
+  .container button {
+    padding: 12px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #cc50ef, #4893e2);
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-image: linear-gradient(to right, #4893e2, #cc50ef);
+  }
+
+  /* .sign_Up a {
+    margin: 40%;
+    color: #005eff;
+    text-decoration: none;
+    text-align: center;
+  } */
